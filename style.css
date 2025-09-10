@@ -1,44 +1,37 @@
 .container {
-  /* display: grid;
+  display: grid;
   grid-template-areas:
     "header header header header header header"
     "menu main main main main right"
     "footer footer footer footer footer footer";
   gap: 10px;
   background-color: white;
-  padding: 10px; */
+  padding: 10px;
 }
 header {
-  /* grid-area: header; */
+  grid-area: header;
   background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
 }
-.content {
-  display: flex;
-  gap: 10px;
-  margin: 10px 0;
-}
+
 nav {
-  /* grid-area: menu; */
-  max-width: 15%;
+  grid-area: menu;
   background-color: #b5ffc8;
   padding: 20px;
 }
 main {
-  /* grid-area: main; */
-  max-width: 50%;
+  grid-area: main;
   background-color: #ffbaba;
   padding: 20px;
 }
 aside {
-  /* grid-area: right; */
-  max-width: 20%;
+  grid-area: right;
   background-color: #ffffba;
   padding: 20px;
 }
 footer {
-  /* grid-area: footer; */
+  grid-area: footer;
   background-color: #94a7ff;
   padding: 10px;
 }
